@@ -68,3 +68,24 @@ list_8.reverse()
 print(list_8.count(4))
 list_8.extend([7, 9, 10])
 print(list_8)
+
+a=(5,6)
+b=(1,4)
+if a>b:
+    print ('a is bigger')
+else:
+    print ('b is bigger')
+
+a=(5,6)
+b=(5,4)
+if a>b:
+    print ('a is bigger')
+else:
+    print ('b is bigger')
+
+a=(5,6)
+b=(6,4)
+if a>b:
+    print ('a is bigger')
+else:
+    print ('b is bigger')
