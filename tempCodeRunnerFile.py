@@ -1,6 +1,6 @@
-a=(5,6)
-b=(6,4)
-if a>b:
-    print ('a is bigger')
-else:
-    print ('b is bigger')
+numbers=[14, 5, 29, 8, 42, 19]
+max_num=numbers[0]
+for item in numbers:
+    if item>max_num:
+        max_num=item
+print (max_num) 
